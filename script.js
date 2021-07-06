@@ -36,7 +36,7 @@ function setDeleteButtonEvent(id) {
     let deleteButton = document.getElementById("button"+id);
     console.log("deleteButton:", deleteButton);
     deleteButton.addEventListener("click", () => {
-        //console.log("Delete Button Works");
+
         removeListItem(id);
     })
 }
